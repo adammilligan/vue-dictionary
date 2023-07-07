@@ -94,7 +94,7 @@ export default {
         this.errors = 'поля не должны быть пустыми'
       }
       if(englishWord && russianWord) {
-        console.log(1)
+        this.errors = 'хотя бы одно поле должно быть пустым'
       }
     }
   },
